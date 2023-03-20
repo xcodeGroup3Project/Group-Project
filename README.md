@@ -52,7 +52,6 @@ An app that is focused on fitness and it has features like meal plans, calorie t
 * Sleep Screen
     * User inputs time in bed, HH:Min
     * User inputs date, MM/DD/YYYY
-    * User is shown blogs, articles and more on sleeping to become an expert on sleep
 * Diet Screen
     * User is able to add what they ate for Breakfast
     * User is able to add what they ate for Lunch
