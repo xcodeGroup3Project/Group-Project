@@ -83,4 +83,4 @@ Optional:
 
 ## Wireframes
 
-<img src="YOUR_WIREFRAME_IMAGE_URL" width=600>
+<img src="https://github.com/xcodeGroup3Project/Group-Project/blob/main/wireframes.jpeg" width=600>
