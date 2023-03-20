@@ -1,3 +1,18 @@
+Group project
+
+Ideas:
+chat: chatting with your friends.
+fitn3ss: this app can make a list of workouts, meal plans, and recommended exercises.
+game store api: app where you can look up games and record what you own.
+myFinance: app to plan and track your budget 
+PetWalkTracker: app to track miles walked with pet and able to upload pictures thorughout various points of your walk.
+
+Top 3 App Ideas: 
+Fitn3ss, myFinance, PetWalkTracker 
+Our group decided that we were most interested in the fitness, finance, and walking trackers. There aren't many apps around that track walking miles on an actual map very well in addition to adding pictures which could make it more fun and interactive. The finance tracker was another good idea because most of the finance apps don't include everything all in one place. It would be nice to see your net worth, stocks, and make a budget all in once place. The fitness app is probably our best idea. It seems the most reasonable to accomplish well for our group. It would also be nice to have a fitness app that is more manageable to navigate than some of the other fitness apps with everything we want out of a fitness app included in one place. 
+
+Final App: Fitn3ss, the fitness tracker
+
 # Fitn3ss
 
 ## Table of Contents
@@ -25,15 +40,16 @@ An app that is focused on fitness and it has features like meal plans, calorie t
 
 **Required Must-have Stories**
 
+* Users are able to calculate their BMI
 * Users can make a workout plan
 * Users can record their meal plans
-* Users have a calorie counter
-* Users document their sleep
-
-**Optional Nice-to-have Stories**
 * Users are able to setup a timer for workouts
 * Users have a way to track their water consumption
-* Users are able to calculate their BMI
+
+**Optional Nice-to-have Stories**
+
+* Users have a calorie counter
+* Users document their sleep
 * Users record their running distance and time
 
 ### 2. Screen Archetypes
@@ -52,12 +68,15 @@ An app that is focused on fitness and it has features like meal plans, calorie t
 * Sleep Screen
     * User inputs time in bed, HH:Min
     * User inputs date, MM/DD/YYYY
+    * User is shown blogs, articles and more on sleeping to become an expert on sleep
 * Diet Screen
     * User is able to add what they ate for Breakfast
     * User is able to add what they ate for Lunch
     * User is able to add what they ate for Dinner
+    * Goal Calories will be subtracted by Calories consumed for the day, exercise will be added as well
 * Food Diary Screen
     * User will be able to track calories consumed/burned here
+    * User will be shown pie graph with total percntage of fats, protien, and carbs consumed
     * User will be shown total Calories eaten/burned
     * User will be shown date
     * User will have another way to add breakfast, lunch, and dinner
@@ -70,17 +89,27 @@ An app that is focused on fitness and it has features like meal plans, calorie t
 * Diet
 * Workout
 
-Optional:
- * Timer
- * BMI
-
 **Flow Navigation** (Screen to Screen)
 
 * Log-in/Registration -> Log-in to account or create one 
 * Sleep -> Jumps to Sleep Screen
-* Diet -> Jumps to Diet Screen -> Navigate to food diary
-* Workout -> Jumps to workout screen -> log workout or create custom workout
+* Diet -> Jumps to Diet Screen 
+* Workout -> Jumps to workout screen
 
 ## Wireframes
 
-<img src="https://github.com/xcodeGroup3Project/Group-Project/blob/main/wireframes.jpeg" width=600>
+![](wireframe.jpg)
+
+### [BONUS] Digital Wireframes & Mockups
+
+### [BONUS] Interactive Prototype
+
+## Schema 
+[This section will be completed in Unit 9]
+### Models
+[Add table of models]
+### Networking
+- [Add list of network requests by screen ]
+- [Create basic snippets for each Parse network request]
+- [OPTIONAL: List endpoints if using existing API such as Yelp]
+
