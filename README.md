@@ -56,10 +56,8 @@ An app that is focused on fitness and it has features like meal plans, calorie t
     * User is able to add what they ate for Breakfast
     * User is able to add what they ate for Lunch
     * User is able to add what they ate for Dinner
-    * Goal Calories will be subtracted by Calories consumed for the day, exercise will be added as well
 * Food Diary Screen
     * User will be able to track calories consumed/burned here
-    * User will be shown pie graph with total percntage of fats, protien, and carbs consumed
     * User will be shown total Calories eaten/burned
     * User will be shown date
     * User will have another way to add breakfast, lunch, and dinner
