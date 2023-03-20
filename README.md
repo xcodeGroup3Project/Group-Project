@@ -98,7 +98,7 @@ An app that is focused on fitness and it has features like meal plans, calorie t
 
 ## Wireframes
 
-![](wireframe.jpg)
+![](wireframe.jpeg)
 
 ### [BONUS] Digital Wireframes & Mockups
 
