@@ -25,17 +25,17 @@ An app that is focused on fitness and it has features like meal plans, calorie t
 
 **Required Must-have Stories**
 
-* Users are able to calculate their BMI
 * Users can make a workout plan
 * Users can record their meal plans
-* Users are able to setup a timer for workouts
-* Users have a way to track their water consumption
+* Users document their sleep
 
 **Optional Nice-to-have Stories**
 
 * Users have a calorie counter
-* Users document their sleep
+* Users have a way to track their water consumption
+* Users are able to setup a timer for workouts
 * Users record their running distance and time
+* Users are able to calculate their BMI
 
 ### 2. Screen Archetypes
 
