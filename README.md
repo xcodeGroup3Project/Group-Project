@@ -85,6 +85,12 @@ An app that is focused on fitness and it has features like meal plans, calorie t
 
 ![](wireframes.jpeg)
 
+## Video Walkthrough
+
+
+
+GIF created with ... LICEcap - https://www.cockos.com/licecap/
+
 ### [BONUS] Digital Wireframes & Mockups
 
 ### [BONUS] Interactive Prototype
