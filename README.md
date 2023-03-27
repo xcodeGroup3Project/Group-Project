@@ -86,8 +86,9 @@ An app that is focused on fitness and it has features like meal plans, calorie t
 ![](wireframes.jpeg)
 
 ## Video Walkthrough
+Here's a walkthrough of implemented user stories:
 
-
+<img src='https://github.com/xcodeGroup3Project/Group-Project/blob/main/WalkThru.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
 
 GIF created with ... LICEcap - https://www.cockos.com/licecap/
 
