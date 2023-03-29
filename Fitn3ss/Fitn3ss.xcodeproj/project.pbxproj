@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		58262A1F29D3C29900B936D0 /* SleepCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58262A1E29D3C29900B936D0 /* SleepCell.swift */; };
+		58262A2129D3C2A300B936D0 /* SleepTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58262A2029D3C2A300B936D0 /* SleepTableView.swift */; };
+		58262A2329D3C2AA00B936D0 /* Sleep.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58262A2229D3C2AA00B936D0 /* Sleep.swift */; };
+		58262A2529D3C2BF00B936D0 /* SleepDetailVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58262A2429D3C2BF00B936D0 /* SleepDetailVC.swift */; };
+		58262A2829D3C52F00B936D0 /* Fitn3ss.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 58262A2629D3C52F00B936D0 /* Fitn3ss.xcdatamodeld */; };
 		A96CB7DD29CA5FFE00710C32 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A96CB7DC29CA5FFE00710C32 /* AppDelegate.swift */; };
 		A96CB7DF29CA5FFE00710C32 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A96CB7DE29CA5FFE00710C32 /* SceneDelegate.swift */; };
 		A96CB7E129CA5FFE00710C32 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A96CB7E029CA5FFE00710C32 /* ViewController.swift */; };
@@ -16,6 +21,11 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		58262A1E29D3C29900B936D0 /* SleepCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SleepCell.swift; sourceTree = "<group>"; };
+		58262A2029D3C2A300B936D0 /* SleepTableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SleepTableView.swift; sourceTree = "<group>"; };
+		58262A2229D3C2AA00B936D0 /* Sleep.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sleep.swift; sourceTree = "<group>"; };
+		58262A2429D3C2BF00B936D0 /* SleepDetailVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SleepDetailVC.swift; sourceTree = "<group>"; };
+		58262A2729D3C52F00B936D0 /* Fitn3ss.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Fitn3ss.xcdatamodel; sourceTree = "<group>"; };
 		A96CB7D929CA5FFE00710C32 /* Fitn3ss.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Fitn3ss.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A96CB7DC29CA5FFE00710C32 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A96CB7DE29CA5FFE00710C32 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -60,9 +70,14 @@
 				A96CB7DE29CA5FFE00710C32 /* SceneDelegate.swift */,
 				A96CB7E029CA5FFE00710C32 /* ViewController.swift */,
 				A96CB7E229CA5FFE00710C32 /* Main.storyboard */,
+				58262A2229D3C2AA00B936D0 /* Sleep.swift */,
+				58262A1E29D3C29900B936D0 /* SleepCell.swift */,
+				58262A2429D3C2BF00B936D0 /* SleepDetailVC.swift */,
+				58262A2029D3C2A300B936D0 /* SleepTableView.swift */,
 				A96CB7E529CA5FFF00710C32 /* Assets.xcassets */,
 				A96CB7E729CA5FFF00710C32 /* LaunchScreen.storyboard */,
 				A96CB7EA29CA5FFF00710C32 /* Info.plist */,
+				58262A2629D3C52F00B936D0 /* Fitn3ss.xcdatamodeld */,
 			);
 			path = Fitn3ss;
 			sourceTree = "<group>";
@@ -141,6 +156,11 @@
 				A96CB7E129CA5FFE00710C32 /* ViewController.swift in Sources */,
 				A96CB7DD29CA5FFE00710C32 /* AppDelegate.swift in Sources */,
 				A96CB7DF29CA5FFE00710C32 /* SceneDelegate.swift in Sources */,
+				58262A2129D3C2A300B936D0 /* SleepTableView.swift in Sources */,
+				58262A2529D3C2BF00B936D0 /* SleepDetailVC.swift in Sources */,
+				58262A1F29D3C29900B936D0 /* SleepCell.swift in Sources */,
+				58262A2829D3C52F00B936D0 /* Fitn3ss.xcdatamodeld in Sources */,
+				58262A2329D3C2AA00B936D0 /* Sleep.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -356,6 +376,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		58262A2629D3C52F00B936D0 /* Fitn3ss.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				58262A2729D3C52F00B936D0 /* Fitn3ss.xcdatamodel */,
+			);
+			currentVersion = 58262A2729D3C52F00B936D0 /* Fitn3ss.xcdatamodel */;
+			path = Fitn3ss.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = A96CB7D129CA5FFE00710C32 /* Project object */;
 }
