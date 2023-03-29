@@ -92,10 +92,6 @@ Here's a walkthrough of implemented user stories:
 
 GIF created with ... LICEcap - https://www.cockos.com/licecap/
 
-### [BONUS] Digital Wireframes & Mockups
-
-### [BONUS] Interactive Prototype
-
 ## Schema 
 [This section will be completed in Unit 9]
 ### Models
