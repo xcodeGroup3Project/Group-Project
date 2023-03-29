@@ -49,7 +49,6 @@
                                 <connections>
                                     <outlet property="dateLabel" destination="H0x-wI-5yi" id="LsR-6v-ad1"/>
                                     <outlet property="timeLabel" destination="zGz-YF-GMe" id="Liz-dw-RvE"/>
-                                    <segue destination="TG2-4P-IpR" kind="show" identifier="editSleep" id="I3U-gd-1zV"/>
                                 </connections>
                             </tableViewCell>
                         </prototypes>
@@ -71,6 +70,9 @@
                             </button>
                         </barButtonItem>
                     </navigationItem>
+                    <connections>
+                        <segue destination="TG2-4P-IpR" kind="show" identifier="editSleep" id="E8Z-5V-PuY"/>
+                    </connections>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="6zd-LN-F7s" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -535,7 +537,7 @@
     </scenes>
     <inferredMetricsTieBreakers>
         <segue reference="cZU-1D-DJ4"/>
-        <segue reference="I3U-gd-1zV"/>
+        <segue reference="E8Z-5V-PuY"/>
     </inferredMetricsTieBreakers>
     <resources>
         <image name="bandage" catalog="system" width="128" height="123"/>
