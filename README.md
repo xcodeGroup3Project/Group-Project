@@ -25,9 +25,9 @@ An app that is focused on fitness and it has features like meal plans, calorie t
 
 **Required Must-have Stories**
 
-* Users can track a workout plan
+[x] Users can track a workout plan
 * Users can record their meal plans
-* Users document their sleep
+[x] Users document their sleep
 
 **Optional Nice-to-have Stories**
 
