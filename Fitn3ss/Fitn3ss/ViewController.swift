@@ -9,32 +9,60 @@ import UIKit
 
 class ViewController: UIViewController {
 
-    @IBOutlet var FitnessTableView: UITableView!
+    @IBOutlet var BreakfastTableView: UITableView!
+    @IBOutlet var LunchTableView: UITableView!
+    @IBOutlet var DinnerTableView: UITableView!
+    
+    let test_values1 = ["222","222","222"]
+    let test_values2 = ["333","333","333"]
+    let test_values3 = ["444","444","444"]
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        FitnessTableView.delegate = self
-        FitnessTableView.dataSource = self
+        
+        BreakfastTableView.delegate = self
+        BreakfastTableView.dataSource = self
+        
+        LunchTableView.delegate = self
+        LunchTableView.dataSource = self
+        
+        DinnerTableView.delegate = self
+        DinnerTableView.dataSource = self
+        
     }
 
 
 }
 
-extension ViewController: UITableViewDelegate {
-    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
-        print("tapped fitness cell")//check if tapped
-    }
-}
-
-extension ViewController: UITableViewDataSource {
+extension ViewController: UITableViewDelegate, UITableViewDataSource
+{
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        return 1;//amount of rows that show
+        if tableView.tag == 0 {
+            return test_values1.count
+        }
+        else if tableView.tag == 1 {
+            return test_values2.count
+        }
+        else {
+            return test_values3.count
+        }
+        
     }
-    
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        let cell = FitnessTableView.dequeueReusableCell(withIdentifier: "MealID", for: indexPath)
-        return cell
+        if tableView.tag == 0 {
+            let cell = tableView.dequeueReusableCell(withIdentifier: "Breakfast", for: indexPath)
+            cell.textLabel?.text = test_values1[indexPath.row]
+            return cell
+        }
+        else if tableView.tag == 1 {
+            let cell = tableView.dequeueReusableCell(withIdentifier: "Lunch", for: indexPath)
+            cell.textLabel?.text = test_values2[indexPath.row]
+            return cell
+        }
+        else {
+            let cell = tableView.dequeueReusableCell(withIdentifier: "Dinner", for: indexPath)
+            cell.textLabel?.text = test_values3[indexPath.row]
+            return cell
+        }
     }
 }
-//add a model for the labels
-
