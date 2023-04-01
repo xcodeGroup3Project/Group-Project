@@ -12,7 +12,11 @@ class ViewController: UIViewController {
     @IBOutlet var BreakfastTableView: UITableView!
     @IBOutlet var LunchTableView: UITableView!
     @IBOutlet var DinnerTableView: UITableView!
+    @IBAction func newMeal(){
+        
+    }
     
+    var models : [(title: String, calories: String)] = []
     let test_values1 = ["222","222","222"]
     let test_values2 = ["333","333","333"]
     let test_values3 = ["444","444","444"]
@@ -47,6 +51,18 @@ extension ViewController: UITableViewDelegate, UITableViewDataSource
             return test_values3.count
         }
         
+    }
+    
+    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        tableView.deselectRow(at: indexPath, animated: true)
+        //show the meal controller
+        
+        guard let vc = storyboard?.instantiateViewController(withIdentifier: "meal") as? MealViewController else {
+                return
+        }
+        vc.title = "Meal"
+        navigationController?.pushViewController(vc, animated: true)
+            
     }
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         if tableView.tag == 0 {

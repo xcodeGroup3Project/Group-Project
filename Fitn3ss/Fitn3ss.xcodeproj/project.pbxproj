@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		58262A1F29D3C29900B936D0 /* SleepCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58262A1E29D3C29900B936D0 /* SleepCell.swift */; };
 		58262A2129D3C2A300B936D0 /* SleepTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58262A2029D3C2A300B936D0 /* SleepTableView.swift */; };
-		58262A2329D3C2AA00B936D0 /* Sleep.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58262A2229D3C2AA00B936D0 /* Sleep.swift */; };
 		58262A2529D3C2BF00B936D0 /* SleepDetailVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58262A2429D3C2BF00B936D0 /* SleepDetailVC.swift */; };
 		58262A2829D3C52F00B936D0 /* Fitn3ss.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 58262A2629D3C52F00B936D0 /* Fitn3ss.xcdatamodeld */; };
 		58C0191129D3E99700146E5F /* Workout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58C0191029D3E99700146E5F /* Workout.swift */; };
@@ -22,12 +21,13 @@
 		A96CB7E429CA5FFE00710C32 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A96CB7E229CA5FFE00710C32 /* Main.storyboard */; };
 		A96CB7E629CA5FFF00710C32 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A96CB7E529CA5FFF00710C32 /* Assets.xcassets */; };
 		A96CB7E929CA5FFF00710C32 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A96CB7E729CA5FFF00710C32 /* LaunchScreen.storyboard */; };
+		A9AFD94329D7A70F00A434D4 /* MealVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9AFD94229D7A70F00A434D4 /* MealVC.swift */; };
+		A9AFD94529D8A81C00A434D4 /* MealViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9AFD94429D8A81C00A434D4 /* MealViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		58262A1E29D3C29900B936D0 /* SleepCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SleepCell.swift; sourceTree = "<group>"; };
 		58262A2029D3C2A300B936D0 /* SleepTableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SleepTableView.swift; sourceTree = "<group>"; };
-		58262A2229D3C2AA00B936D0 /* Sleep.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sleep.swift; sourceTree = "<group>"; };
 		58262A2429D3C2BF00B936D0 /* SleepDetailVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SleepDetailVC.swift; sourceTree = "<group>"; };
 		58262A2729D3C52F00B936D0 /* Fitn3ss.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Fitn3ss.xcdatamodel; sourceTree = "<group>"; };
 		58C0191029D3E99700146E5F /* Workout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Workout.swift; sourceTree = "<group>"; };
@@ -42,6 +42,8 @@
 		A96CB7E529CA5FFF00710C32 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A96CB7E829CA5FFF00710C32 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A96CB7EA29CA5FFF00710C32 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A9AFD94229D7A70F00A434D4 /* MealVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MealVC.swift; sourceTree = "<group>"; };
+		A9AFD94429D8A81C00A434D4 /* MealViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MealViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,8 +79,9 @@
 				A96CB7DC29CA5FFE00710C32 /* AppDelegate.swift */,
 				A96CB7DE29CA5FFE00710C32 /* SceneDelegate.swift */,
 				A96CB7E029CA5FFE00710C32 /* ViewController.swift */,
+				A9AFD94429D8A81C00A434D4 /* MealViewController.swift */,
 				A96CB7E229CA5FFE00710C32 /* Main.storyboard */,
-				58262A2229D3C2AA00B936D0 /* Sleep.swift */,
+				A9AFD94229D7A70F00A434D4 /* MealVC.swift */,
 				58262A1E29D3C29900B936D0 /* SleepCell.swift */,
 				58262A2429D3C2BF00B936D0 /* SleepDetailVC.swift */,
 				58262A2029D3C2A300B936D0 /* SleepTableView.swift */,
@@ -168,6 +171,7 @@
 				A96CB7E129CA5FFE00710C32 /* ViewController.swift in Sources */,
 				A96CB7DD29CA5FFE00710C32 /* AppDelegate.swift in Sources */,
 				A96CB7DF29CA5FFE00710C32 /* SceneDelegate.swift in Sources */,
+				A9AFD94529D8A81C00A434D4 /* MealViewController.swift in Sources */,
 				58262A2129D3C2A300B936D0 /* SleepTableView.swift in Sources */,
 				58262A2529D3C2BF00B936D0 /* SleepDetailVC.swift in Sources */,
 				58C0191529D3E9B800146E5F /* WorkoutCell.swift in Sources */,
@@ -175,8 +179,8 @@
 				58C0191729D3E9CB00146E5F /* WorkoutDetailVC.swift in Sources */,
 				58262A1F29D3C29900B936D0 /* SleepCell.swift in Sources */,
 				58262A2829D3C52F00B936D0 /* Fitn3ss.xcdatamodeld in Sources */,
-				58262A2329D3C2AA00B936D0 /* Sleep.swift in Sources */,
 				58C0191329D3E9A400146E5F /* WorkoutTableView.swift in Sources */,
+				A9AFD94329D7A70F00A434D4 /* MealVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
