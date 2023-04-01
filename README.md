@@ -25,17 +25,17 @@ An app that is focused on fitness and it has features like meal plans, calorie t
 
 **Required Must-have Stories**
 
-* Users are able to calculate their BMI
-* Users can make a workout plan
+- [x] Users can track a workout plan
 * Users can record their meal plans
-* Users are able to setup a timer for workouts
-* Users have a way to track their water consumption
+- [x] Users document their sleep
 
 **Optional Nice-to-have Stories**
 
 * Users have a calorie counter
-* Users document their sleep
+* Users have a way to track their water consumption
+* Users are able to setup a timer for workouts
 * Users record their running distance and time
+* Users are able to calculate their BMI
 
 ### 2. Screen Archetypes
 
@@ -85,9 +85,12 @@ An app that is focused on fitness and it has features like meal plans, calorie t
 
 ![](wireframes.jpeg)
 
-### [BONUS] Digital Wireframes & Mockups
+## Video Walkthrough
+Here's a walkthrough of implemented user stories:
 
-### [BONUS] Interactive Prototype
+<img src='https://github.com/xcodeGroup3Project/Group-Project/blob/main/WalkThru.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+
+GIF created with ... LICEcap - https://www.cockos.com/licecap/
 
 ## Schema 
 [This section will be completed in Unit 9]
