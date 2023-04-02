@@ -26,7 +26,7 @@ An app that is focused on fitness and it has features like meal plans, calorie t
 **Required Must-have Stories**
 
 - [x] Users can track a workout plan
-* Users can record their meal plans
+- [x] Users can record their meal plans
 - [x] Users document their sleep
 
 **Optional Nice-to-have Stories**
@@ -92,12 +92,4 @@ Here's a walkthrough of implemented user stories:
 
 GIF created with ... LICEcap - https://www.cockos.com/licecap/
 
-## Schema 
-[This section will be completed in Unit 9]
-### Models
-[Add table of models]
-### Networking
-- [Add list of network requests by screen ]
-- [Create basic snippets for each Parse network request]
-- [OPTIONAL: List endpoints if using existing API such as Yelp]
 
