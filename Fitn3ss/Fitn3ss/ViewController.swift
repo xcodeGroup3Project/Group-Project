@@ -16,6 +16,9 @@ class ViewController: UIViewController {
     
     @IBOutlet var titlelabel: UILabel!
     
+    
+    
+    
     var models: [(title: String, calories_count: String)] = [ ]
     var modelsLunch: [(title: String, calories_count: String)] = [ ]
     var modelsDinner: [(title: String, calories_count: String)] = [ ]
@@ -62,6 +65,8 @@ class ViewController: UIViewController {
         navigationController?.pushViewController(vc, animated: true)
     }
     //------------------------------------------------------------------------------------------------------------------
+
+    
     let test_values1 = ["222","222","222"]
     let test_values2 = ["333","333","333"]
     let test_values3 = ["444","444","444"]
@@ -90,10 +95,10 @@ extension ViewController: UITableViewDelegate, UITableViewDataSource
             return models.count
         }
         else if tableView.tag == 1 {
-            return models.count
+            return modelsLunch.count
         }
         else {
-            return models.count
+            return modelsDinner.count
         }
         
     }
