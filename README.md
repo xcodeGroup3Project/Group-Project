@@ -1,5 +1,9 @@
 # Fitn3ss
 
+Submitted by: Katelyn Norton, Ethan Mendoza
+
+Time spent: > 30 hours spent in total
+
 ## Table of Contents
 1. [Overview](#Overview)
 1. [Product Spec](#Product-Spec)
@@ -91,5 +95,23 @@ Here's a walkthrough of implemented user stories:
 <img src='https://github.com/xcodeGroup3Project/Group-Project/blob/main/WalkThru.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
 
 GIF created with ... LICEcap - https://www.cockos.com/licecap/
+
+## Notes
+The most challenging part of this project was trying to get the collection view to segue to the detail view. But it doesn't even look like that is required?
+
+## License
+Copyright 2023 Fitn3ss
+
+Licensed under the Apache License, Version 2.0 (the "License");
+you may not use this file except in compliance with the License.
+You may obtain a copy of the License at
+
+    http://www.apache.org/licenses/LICENSE-2.0
+
+Unless required by applicable law or agreed to in writing, software
+distributed under the License is distributed on an "AS IS" BASIS,
+WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+See the License for the specific language governing permissions and
+limitations under the License.
 
 
