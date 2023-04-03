@@ -39,7 +39,7 @@ An app that is focused on fitness and it has features like meal plans, calorie t
 * Users have a way to track their water consumption
 * Users are able to setup a timer for workouts
 * Users record their running distance and time
-* Users are able to calculate their BMI
+- [x] Users are able to calculate their BMI
 
 ### 2. Screen Archetypes
 
