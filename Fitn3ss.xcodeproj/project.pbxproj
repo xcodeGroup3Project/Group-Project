@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0E6A181429DFA3910082EAF4 /* calorie calculator.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 0E6A181329DFA3900082EAF4 /* calorie calculator.jpeg */; };
 		58262A1F29D3C29900B936D0 /* SleepCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58262A1E29D3C29900B936D0 /* SleepCell.swift */; };
 		58262A2129D3C2A300B936D0 /* SleepTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58262A2029D3C2A300B936D0 /* SleepTableView.swift */; };
 		58262A2529D3C2BF00B936D0 /* SleepDetailVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58262A2429D3C2BF00B936D0 /* SleepDetailVC.swift */; };
@@ -29,7 +28,6 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		0E6A181329DFA3900082EAF4 /* calorie calculator.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "calorie calculator.jpeg"; path = "../../../../Downloads/calorie calculator.jpeg"; sourceTree = "<group>"; };
 		58262A1E29D3C29900B936D0 /* SleepCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SleepCell.swift; sourceTree = "<group>"; };
 		58262A2029D3C2A300B936D0 /* SleepTableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SleepTableView.swift; sourceTree = "<group>"; };
 		58262A2429D3C2BF00B936D0 /* SleepDetailVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SleepDetailVC.swift; sourceTree = "<group>"; };
@@ -101,7 +99,6 @@
 				A96CB7E729CA5FFF00710C32 /* LaunchScreen.storyboard */,
 				A96CB7EA29CA5FFF00710C32 /* Info.plist */,
 				58262A2629D3C52F00B936D0 /* Fitn3ss.xcdatamodeld */,
-				0E6A181329DFA3900082EAF4 /* calorie calculator.jpeg */,
 			);
 			path = Fitn3ss;
 			sourceTree = "<group>";
@@ -164,7 +161,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0E6A181429DFA3910082EAF4 /* calorie calculator.jpeg in Resources */,
 				A96CB7E929CA5FFF00710C32 /* LaunchScreen.storyboard in Resources */,
 				A96CB7E629CA5FFF00710C32 /* Assets.xcassets in Resources */,
 				A96CB7E429CA5FFE00710C32 /* Main.storyboard in Resources */,
