@@ -1,6 +1,6 @@
 # Fitn3ss
 
-Submitted by: Katelyn Norton, Ethan Mendoza
+Submitted by: Katelyn Norton, Ethan Mendoza, Efren Siguenza, Samuel Pellot
 
 Time spent: > 30 hours spent in total
 
