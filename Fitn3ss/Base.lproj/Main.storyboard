@@ -170,7 +170,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <toolbar opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="ers-EL-lLE">
-                                <rect key="frame" x="-7" y="59" width="389" height="37"/>
+                                <rect key="frame" x="-7" y="59" width="389" height="36"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
                                 <items/>
                             </toolbar>
@@ -357,16 +357,7 @@
                             <constraint firstItem="rS8-7H-Xt7" firstAttribute="centerX" secondItem="k2t-8Z-YHT" secondAttribute="centerX" id="kEq-eA-glm"/>
                         </constraints>
                     </view>
-                    <navigationItem key="navigationItem" title="Meals" id="sjb-07-1Jg">
-                        <barButtonItem key="rightBarButtonItem" style="plain" id="sbV-ks-q1g">
-                            <button key="customView" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" id="ine-Pv-7iY">
-                                <rect key="frame" x="249.33333333333334" y="5" width="127.66666666666666" height="34.333333333333336"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="plain" title="Daily Calories"/>
-                            </button>
-                        </barButtonItem>
-                    </navigationItem>
+                    <navigationItem key="navigationItem" title="Meals" id="sjb-07-1Jg"/>
                     <connections>
                         <outlet property="BreakfastTableView" destination="2jG-as-gxH" id="6cn-1F-2lV"/>
                         <outlet property="DinnerTableView" destination="eBi-5d-RUH" id="M0W-cE-WXT"/>
@@ -664,11 +655,9 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <toolbar opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="zQu-vc-qY3">
-                                <rect key="frame" x="-9" y="50" width="392" height="45"/>
+                                <rect key="frame" x="-9" y="50" width="391" height="44"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
-                                <items>
-                                    <barButtonItem title="Item" id="tXy-jV-4wd"/>
-                                </items>
+                                <items/>
                             </toolbar>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="BMI Calculator" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1FY-Ti-UdZ">
                                 <rect key="frame" x="117" y="113" width="158" height="38"/>
